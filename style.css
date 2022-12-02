@@ -30,6 +30,9 @@ body {
   gap: 2rem;
   grid-template-columns: 1fr;
 }
+.container h1 {
+  display: none;
+}
 
 .card {
   padding: 2rem;
