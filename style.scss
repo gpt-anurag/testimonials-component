@@ -38,6 +38,12 @@ body {
   font-family: $font;
 }
 
+.sr-only {
+  position: absolute;
+  z-index: -1;
+  margin-left: 100px;
+}
+
 .container {
   padding: 5rem;
   display: grid;
