@@ -45,7 +45,7 @@ body {
 }
 
 .container {
-  padding: 5rem;
+  margin: 2rem;
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr;
@@ -133,6 +133,8 @@ body {
 @media (min-width: 1440px) {
   .container {
     grid-template-columns: repeat(4, 1fr);
+    max-width: 1440px;
+    margin: 5rem auto;
   }
 
   .card:nth-of-type(1) {
